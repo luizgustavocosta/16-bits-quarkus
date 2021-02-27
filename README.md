@@ -24,3 +24,11 @@ WIP
 [![](http://img.youtube.com/vi/2Vaqq6AokSs/0.jpg)](https://youtu.be/2Vaqq6AokSs)
 
 [![](http://img.youtube.com/vi/hA2reppevKo/0.jpg)](https://youtu.be/hA2reppevKo)
+
+
+## References
+[Markdown](https://guides.github.com/features/mastering-markdown/)
+
+[Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+[Emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
