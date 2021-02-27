@@ -1,3 +1,7 @@
+## Build status
+![Build status](https://github.com/luizgustavocosta/16-bits-quarkus/workflows/Java%20CI%20with%20Maven/badge.svg) 
+
+
 # Quarkus
 
 ## Introduction
