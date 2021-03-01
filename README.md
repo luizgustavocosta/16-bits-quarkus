@@ -1,6 +1,8 @@
 ## Build status
 ![Build status](https://github.com/luizgustavocosta/16-bits-quarkus/workflows/Java%20CI%20with%20Maven/badge.svg) 
 
+# Sonar
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=luizgustavocosta_16-bits-quarkus&metric=alert_status)](https://sonarcloud.io/dashboard?id=luizgustavocosta_16-bits-quarkus)
 
 # Quarkus
 
