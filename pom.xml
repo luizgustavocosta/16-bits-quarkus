@@ -5,7 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.costa.luiz.16bits</groupId>
     <artifactId>quarkus</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>hello-world</module>
+        <module>service-4-k8s</module>
+    </modules>
     <name>quarkus</name>
     <properties>
         <surefire-plugin.version>2.22.1</surefire-plugin.version>
@@ -16,7 +21,7 @@
         <quarkus.platform.artifact-id>quarkus-universe-bom</quarkus.platform.artifact-id>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.parameters>true</maven.compiler.parameters>
-        <quarkus-plugin.version>1.11.0.Final</quarkus-plugin.version>
+        <quarkus-plugin.version>1.13.4.Final</quarkus-plugin.version>
         <compiler-plugin.version>3.8.1</compiler-plugin.version>
         <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
         <jacoco.version>0.8.4</jacoco.version>
