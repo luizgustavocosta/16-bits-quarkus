@@ -10,6 +10,11 @@
     <modules>
         <module>hello-world</module>
         <module>service-4-k8s</module>
+        <module>graph-db</module>
+        <module>distributed-nosql-db</module>
+        <module>relational-db</module>
+        <module>nosql-db</module>
+        <module>datalog-db</module>
     </modules>
     <name>quarkus</name>
     <properties>
