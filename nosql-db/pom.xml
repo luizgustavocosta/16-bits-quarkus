@@ -10,9 +10,10 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.costa.luiz.16bits</groupId>
     <artifactId>nosql-db</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-
+    <properties>
+        <sonar.projectKey>luizgustavocosta_16-bits-quarkus-${project.groupId}:${project.artifactId}</sonar.projectKey>
+    </properties>
 </project>
