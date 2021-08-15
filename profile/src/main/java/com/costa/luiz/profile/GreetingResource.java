@@ -1,7 +1,9 @@
 package com.costa.luiz.profile;
 
+import io.quarkus.runtime.configuration.ProfileManager;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
+import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -14,13 +16,11 @@ public class GreetingResource {
     @ConfigProperty(name = "greeting.message")
     String message;
 
-//    @ConfigProperty(name = "staging.message")
-//    String messageFromStaging;
-
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-//        System.out.println(messageFromStaging);
-        return Optional.ofNullable(message).orElse("Greeting message not found :(");
+        System.out.println("Profile->"+ProfileManager.getActiveProfile());
+        return Optional.ofNullable(message)
+                .orElse("Greeting message not found :(");
     }
 }

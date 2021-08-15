@@ -3,7 +3,6 @@ quarkus:
     db-kind: h2
     jdbc:
       url: jdbc:h2:mem:default;DB_CLOSE_DELAY=-1
-  profile: demo
 "%dev":
   quarkus:
     datasource:
