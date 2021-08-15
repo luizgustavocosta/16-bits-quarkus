@@ -1,0 +1,32 @@
+quarkus:
+  datasource:
+    db-kind: h2
+    jdbc:
+      url: jdbc:h2:mem:default;DB_CLOSE_DELAY=-1
+  profile: demo
+"%dev":
+  quarkus:
+    datasource:
+      db-kind: h2
+      jdbc:
+        url: jdbc:h2:mem:dev;DB_CLOSE_DELAY=-1
+  greeting:
+    message: "Hi, this message is stored in the application.yml"
+"%test":
+  quarkus:
+    datasource:
+      db-kind: h2
+      jdbc:
+        url: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1
+"%demo":
+  quarkus:
+    datasource:
+      db-kind: h2
+      jdbc:
+        url: jdbc:h2:mem:demo;DB_CLOSE_DELAY=-1
+"%prod":
+  quarkus:
+    datasource:
+      db-kind: h2
+      jdbc:
+        url: jdbc:h2:mem:prod;DB_CLOSE_DELAY=-1

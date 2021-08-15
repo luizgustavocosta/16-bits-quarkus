@@ -15,6 +15,7 @@
         <module>relational-db</module>
         <module>nosql-db</module>
         <module>datalog-db</module>
+        <module>profile</module>
     </modules>
     <name>quarkus</name>
     <properties>
