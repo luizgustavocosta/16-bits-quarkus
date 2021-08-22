@@ -17,7 +17,7 @@ public class GreetingResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        System.out.println("Hello from Visual Code :D");
+        System.out.println("Using Gitpod to run my application");
         return Optional.ofNullable(message)
                 .orElse("Greeting message not found :(");
     }
